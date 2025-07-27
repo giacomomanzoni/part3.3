@@ -1,9 +1,6 @@
-# Exercise 3 - Shape Operations
+# Exercise 3
 The original code used generic object arrays and many type checking to manage trhe use of many different geometric shapes. This made the code complicated and hard to maintains as things had to change drastically every time a new shape is added. Finally the area and boundary calculations were done with a repeated logic making the code less clean.
-
 The second and improved version uses an interface instead called `Shape` that later then all geometric shapes implement, and so each of them knows already how to compute its own area and boundaries. meanin that the main program needs not to know the unique details of each shape, allowing so for polymorhpism. makign the code easier to read, mantain and extend.
-
-
 
 ```java
 package fi.utu.tech.exercise3;
